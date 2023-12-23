@@ -13,7 +13,7 @@ from jupyter_client import KernelManager
 from jupyter_client.threaded import ThreadedKernelClient
 from jupyter_core.application import JupyterApp
 from jupyter_client.consoleapp import JupyterConsoleApp
-from jupyter_core import version_info
+from jupyter_core.version import version_info
 
 import greenlet
 from traceback import format_exc
